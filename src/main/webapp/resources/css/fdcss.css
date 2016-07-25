@@ -1,0 +1,496 @@
+@CHARSET "ISO-8859-1";
+header{
+	/* background-image: url('../images/bg-4.jpg'); */
+    background-color: #381e1d;
+    Color: white;
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px;
+    height: 40px;
+    margin-top: -8px;
+    /* margin-left: -2px; */
+    width: 100%;
+    opacity: 0.9;
+	
+}
+#Accounts{
+	cursor:pointer;
+}
+#Header{
+	/* background-color: RGB(111,69,80);
+	opacity:0.6;
+	 filter: alpha(opacity=60); */
+	     background-color: rgba(25,12,12,.4);
+    box-shadow: 0 1px 0 rgba(255,255,255,.1),inset 0 2px 2px rgba(0,0,0,.05);
+    position: relative;
+    z-index: 10;
+}
+
+#Header li {
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 10px;
+    padding: 0 10px;
+    	
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Sarala';
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+ #Header  li{
+	float: left; 	 	
+	margin-left: 10px;
+}
+#Header ul{
+	display: inline-block;
+	font-size: 35px;
+	margin-right: 20px; 
+}
+#Header a{
+text-decoration: none;
+color: white;
+}
+.nolistStyle{
+list-style: none;
+}
+.hidden{
+	display: none;
+}
+#fcOverlay,#vdOverlay{
+	background-color: #C19A93;
+}
+#background{
+	background-image:url("../images/bg-image-11.jpg");
+	background-repeat: no-repeat;
+	/* background-size:cover; */
+	 
+	 background-position:top;
+	 
+	 background-color: black;
+	/*  opacity:transparent;
+	 transition:all 4s ease-in; */
+	 
+}
+#background.vendorBackground{
+	bacground-size:normal;
+}
+/* #background:hover  {
+    -moz-transform: scale(2,2);
+    -webkit-transform: scale(2,2);
+    transform: scale(2,2);    
+} */
+#fcOverlay {
+	 width:300px;
+	 font-size: 30px;
+	 float:left;
+	  opacity: 0.6;
+    filter: alpha(opacity=60);
+    z-index:3;
+    left: 149px;
+    position: relative;
+    top: 11px;
+}
+#fcOverlay li:hover{
+	background-color: yellow;
+}
+#vdOverlay{
+	 width:300px;
+	 font-size: 30px;
+	 background-color: #B0A0B1;
+	 float:left;
+	   opacity: 0.8;
+    filter: alpha(opacity=70);
+    z-index:4;
+    left: 152px;
+    position: relative;
+    top: 28px;
+}
+#cd{
+	float: left;
+	
+}
+/*new changes*/
+#vdList li:hover{
+	background-color: red;
+	cursor: pointer;
+}
+#VendorSec #itemList {
+background-image:url('../images/vendrTblBackgrnd.jpg');
+margin-top: 5px; 	
+
+}
+#itemList{
+	background-image:url('../images/tblBckGrnd.jpg');
+	  
+	font-family: monospace;
+	border:black 1px solid;
+	width: 50%;
+    height: 90%;
+	position:fixed;
+	margin-top: 6%;
+    left: 15%;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size:cover;
+overflow-y: scroll;
+}
+
+
+#itemList #qty{
+	width:58%;
+	
+}
+#itemData{
+	color:white;
+	font-size:30px;
+	font-family:cursive;
+	    margin-left: 9%;
+	    margin-top: 21%;
+	    height: 40%;
+    width: 88%;
+}
+
+#OrderDetails{
+	background-image:url('../images/orderdetails.jpg');
+	 color:white; 
+	font-family: monospace;
+	border:black 1px solid;
+	width: 25%;
+    height: 80%;
+    position: fixed;
+    margin-top: 6%;
+    left: 67%;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+#OrderDetails #Totalcost,#OrderDetails .itemCost{
+	
+}
+#OrderDetails #orderData,#OrderDetails span{
+
+    margin-top: 14%;
+    margin-left: 10%;
+    font-size: 23px;
+    font-family: cursive;
+    }
+    
+  #OrderDetails table{
+  width:100%;}  
+  .qtySpan{
+    background-image:url("../images/upandown.jpg"); 
+  }
+  .qtyVal{
+
+
+    background: transparent;
+    background-repeat: no-repeat;
+   /*  background-image: url("../images/upandown.jpg"); */
+    
+    /* line-height: 3px; */
+    margin-top: 14px;
+    border: none;
+    width: 43px;
+    height: 35px;
+    color:RGB(24,50,63);
+   // position:fixed;
+   cursor:pointer;
+  }
+  .remove{
+  cursor: pointer;
+  width:8px;
+  }
+  #buyCoupon{
+ 
+    float: left;
+    margin-top: 7%;
+    margin-left: 16%;
+    background: transparent;
+    color: white;
+    font-size: medium;
+    font-family: cursive;}
+    
+    .custPage{
+    -webkit-animation:zoom 75s infinite;
+    animation:zoom 75s infinite;
+    background:url(http://lorempixel.com/1900/1900/city) center center fixed no-repeat;
+}
+@-webkit-keyframes zoom{
+    0%,100%{
+        background-size:100%;
+    }
+     50%{
+        background-size:110%;
+    }
+    50%{
+        background-size:110%;
+    }
+    60%{
+        background-size:125%;
+    }
+}
+@keyframes zoom{
+    0%, 100%{
+        background-size:90%;
+    }
+    50%{
+        background-size:125%;
+    }
+}
+/**VENDOR CSS**/
+
+#Registration{
+	color:white;
+	width: 463px;
+    float: right;
+    /* background-color: #d2c82a */
+    position: relative;
+   
+}
+.RegHolder{
+	    
+	    box-sizing: border-box;
+	    padding-left: 25px; 	
+	    flex: none;
+    margin: 0;
+    float: left;
+        -webkit-font-smoothing: antialiased;
+            font: 400 16px / 32px 'Sarala';
+                color: #382f2f;
+}
+.RegHolder::selection {
+    background: rgba(210,200,42,.5);
+    color: rgba(56,47,47,.5);
+    text-shadow: none;
+}
+.RegPanel{
+	margin-top:25px;
+	margin-bottom:3px;
+	    min-height: 254px;
+	    text-align: center !important;
+	    background-color: #d2c82a;
+        color: #1a1a10;
+        background: linear-gradient(180deg,rgba(255,255,255,.1) 0,rgba(0,0,0,.1) 100%) #d2c82a;
+        box-shadow: inset 0 4px 0 rgba(0,0,0,.1),inset 0 5px 0 rgba(255,255,255,.05);
+        padding: 60px
+        display: block;
+        position: relative;
+        text-decoration: none;
+        padding: 60px;
+        margin-left:20px
+}
+.RegPanel h1{
+	margin-bottom: 15px;
+	    color: #1a1a10;
+	        position: relative; 	
+	            font-size: 24px;
+    line-height: 32px; 	
+        margin: 0 0 15px;
+    font-family: 'Khand';
+    font-weight: 400;
+    color: #533834;
+    text-transform: none;
+        text-align: center !important;}
+        
+}
+.inputDiv{
+	display: inline-block;
+    position: relative;
+    max-width: 100%;
+        box-sizing: border-box;
+    width: 100%;
+        padding-left: 25px;
+        flex: none;
+    margin: 0;
+    float: left;
+        text-align: center !important;
+            font: 400 16px / 32px 'Sarala';
+}
+ #RegForm input[type="text"], input[type="password"]{
+ width:100%
+	    border-color: rgba(0,0,0,.1);
+    background: rgba(76,78,16)!important;
+    
+        padding-left: 40px !important;
+        vertical-align: middle;
+            height: 40px;
+    max-width: 100%;
+    padding: 4px 6px;
+    border: 1px solid rgba(0,0,0,.12);
+    background: rgba(0,0,0,.03);
+    color: #382f2f ;
+    -webkit-transition: all linear .2s;
+    transition: all linear .2s;
+    font-weight: 400;
+    border-radius: 2px;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,.04);
+    padding: 5px 10px;
+    -webkit-appearance: none;
+    margin-top:25px;
+        border-color: rgba(0,0,0,.1);`
+   /*  background: rgba(0,0,0,.1); */
+    color: #1a1a10 !important;
+    font-size:21px;
+        overflow-y: scroll;
+    overflow: visible;
+    background-color: #271514;
+    -webkit-font-smoothing: antialiased
+}
+.inputGroup  {
+	color: #d2c82a;
+    color: #1a1a10
+	display: flex;
+  flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none
+  }
+ .inputGroup .uk-grid:before, .inputGroup:after {
+    content: "";
+    display: block;
+    overflow: hidden;
+}
+.inputGroup:before, .inputGroup:after {
+    content: "";
+    display: block;
+    overflow: hidden;
+}
+::selection {
+    background: rgba(210,200,42,.5);
+    color: rgba(56,47,47,.5);
+    text-shadow: none;
+}
+.fd-button {
+    -webkit-appearance: none;
+    margin: 0;
+    border: none;
+    overflow: visible;
+    font: inherit;
+    color: #fff;
+    text-transform: none;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 12px;
+    background: #938372;
+    vertical-align: middle;
+    line-height: 40px;
+    min-height: 40px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+    font-family: 'Khand';
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 0 15px;
+
+    min-height: 45px;
+    padding: 0 25px;
+    line-height: 45px;
+    font-size: 18px;
+
+    cursor: pointer;
+
+
+    margin-bottom: 0;
+
+    margin-top: 50px !important;
+}
+
+#Login{
+	
+	width: 463px;
+	/* left:-29%; */
+	position:relative;
+    /* float: right;
+    background-color: #d2c82a; */
+   /*  //margin:2px; */
+}
+}
+#mailMe{
+	width:500px;
+	Height:200px;
+	z-index:300;
+	background-color: Black;
+	
+	left:50%;
+	position:relative;
+	font-size:21px;
+	
+}
+#mailMe #content {
+    background-color: Black;
+   
+    margin-left: 20%;
+    position: relative;
+        color: white;
+        padding-top:2%;
+}
+#QrGen{
+	    width: 82px;
+    height: 30px;
+    color: black;
+
+
+}
+#FileUpload{
+	    width: 43%;
+    height: 118px;
+    background-color: black;
+    padding-top: 43px;
+    color:white;
+    background-image: url("../images/fileUpload.jpg");
+    margin-left: 16%;
+    margin-top: 6%; 	
+}
+#file{
+	position: relative;
+    width: 74%;
+    left: 16%;
+    font-size: 33px;
+    /* color: black; */
+}
+input[type="file"],input[type="submit"]{
+position: relative;
+    width: 13%;
+    left: 10%;
+    font-size: 16px;
+}
+input[type="file"]{
+	
+	width:53%;
+
+    color: black;
+}
+#VendorSec #itemData{
+	margin-top:0px !important;
+}
+#SignOut{
+	float:right;position: relative;
+}
+#dropdown{
+	font-size: 19px;
+    left: 10%;
+    position: relative;
+    padding-bottom: 14px;
+}
+#Complaints{
+	cursor: pointer;
+}
+.bb{
+	border-bottom: 2px solid white;
+}
+#foodType{
+	font-size: 15px;
+    left: 3%;
+    position: relative;
+}
+
+
+
+
+
